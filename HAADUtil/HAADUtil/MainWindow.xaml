@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HAADUtil"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="HAAD" Height="450" Width="800" Background="#3EBEF5">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.Column="0" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#3EBEF5">
+            <TabItem Header="Setup">
+                <StackPanel>
+                    <Label>Connection Type</Label>
+                    <ComboBox Height="25">
+                        <ComboBoxItem IsSelected="True">Mqtt</ComboBoxItem>
+                        <ComboBoxItem>Mqtts</ComboBoxItem>
+                        <ComboBoxItem>Ws</ComboBoxItem>
+                        <ComboBoxItem>Wss</ComboBoxItem>
+                    </ComboBox>
+                    <Label>Server Address</Label>
+                    <TextBox TextWrapping="Wrap" Height="25" VerticalContentAlignment="Center"/>
+                    <Label>Username</Label>
+                    <TextBox TextWrapping="Wrap" Height="25" VerticalContentAlignment="Center"/>
+                    <Label>Password</Label>
+                    <PasswordBox Height="25" VerticalContentAlignment="Center"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Entities"/>
+        </TabControl>
+        <TextBox Grid.Column="1" HorizontalAlignment="Stretch" TextWrapping="Wrap" VerticalAlignment="Stretch"/>
     </Grid>
 </Window>
