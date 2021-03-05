@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HAADUtil", "HAADUtil\HAADUtil.csproj", "{2DD9E091-938D-4E0D-9A65-251C4217B5B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HAADUtil.Communication.Mqtt", "HAADUtil.Communication.Mqtt\HAADUtil.Communication.Mqtt.csproj", "{5AE5EFBC-6501-417D-9D45-3191D7B76699}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HAADUtil.Communication.Mqtt", "HAADUtil.Communication.Mqtt\HAADUtil.Communication.Mqtt.csproj", "{5AE5EFBC-6501-417D-9D45-3191D7B76699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HAADUtil.Tests", "HAADUtil.Tests\HAADUtil.Tests.csproj", "{3892C3A7-4F0F-4C16-ADD6-27CE33F6CC90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5AE5EFBC-6501-417D-9D45-3191D7B76699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE5EFBC-6501-417D-9D45-3191D7B76699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE5EFBC-6501-417D-9D45-3191D7B76699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3892C3A7-4F0F-4C16-ADD6-27CE33F6CC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3892C3A7-4F0F-4C16-ADD6-27CE33F6CC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3892C3A7-4F0F-4C16-ADD6-27CE33F6CC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3892C3A7-4F0F-4C16-ADD6-27CE33F6CC90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

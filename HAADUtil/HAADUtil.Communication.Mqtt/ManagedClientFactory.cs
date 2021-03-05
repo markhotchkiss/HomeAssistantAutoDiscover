@@ -4,7 +4,7 @@ namespace HAADUtil.Communication.Mqtt
 {
     public class ManagedClientFactory
     {
-        private ManagedClientSettings _managedClientSettings;
+        private readonly ManagedClientSettings _managedClientSettings;
 
         public ManagedClientFactory(ManagedClientSettings managedClientSettings)
         {

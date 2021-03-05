@@ -7,3 +7,8 @@
 /HAADUtil/HAADUtil.Communication.Mqtt/obj
 /HAADUtil/.vs/HAADUtil/v16
 /HAADUtil/.vs/HAADUtil/DesignTimeBuild
+/HAADUtil/HAADUtil/bin/Debug
+/HAADUtil/HAADUtil.Communication.Mqtt/bin/Debug/netstandard2.0
+/HAADUtil/HAADUtil.Tests/bin/Debug
+/HAADUtil/HAADUtil.Tests/obj/Debug
+/HAADUtil/packages

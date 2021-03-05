@@ -8,8 +8,6 @@ namespace HAADUtil.Communication.Mqtt
 
         public string ServerAddress { get; set; }
 
-        public ConnectionType ConnectionTypes { get; set; }
-
         public string Username { get; set; }
 
         public string Password { get; set; }
